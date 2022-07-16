@@ -1,0 +1,75 @@
+
+/* Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557 */
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+}
+.hero-img{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 350px;
+    /* background-position: center; */
+    width: 100%;
+}
+.clip{
+    border-radius:50%;
+}
+img  {
+    width: 100px;
+    
+}
+
+.hero-title{
+    background-color: #1D3557;
+    padding: 8px 15px;
+    color: #F1FAEE;
+    text-shadow: 0 0 2px black;
+    border-radius: 10px;
+    margin-bottom: -8px;
+}
+.hero-intro-text{
+    background-color: #457B9D;
+    text-shadow: 0 0 2px black;
+    color: #F1FAEE;
+    border-radius: 10px;
+    padding: 3px 15px ;
+    width: 420px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    
+}
+.flex-wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: 50px 20px ;
+    gap: 20px;
+    
+}
+.card-container{
+    width: 300px;
+    display: flex;
+    background-color: #A8DADC;
+    padding: 20px 12px;
+    margin: 0 auto 40px;
+    border-radius: 5px;
+    gap: 10px;
+    box-shadow: 0 5px 5px ;
+    
+}
+.card-container img{
+    border-radius: 30px;
+    filter: drop-shadow(10px 5px 10px #1D3557);
+}
