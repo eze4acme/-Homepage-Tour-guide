@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: #a5a5ad;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .hero {
+    background-color: rgba(3, 56, 19, 0.808);
+    background-image: url(images/hero.jpg);
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-blend-mode: difference;
+    background-clip: border-box;
+    color: #fff;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-container h1,
+  .text-container h2 {
+    text-transform: capitalize;
+    text-shadow: 0 0 0 black;
+    border-radius: 10px;
+  }
+  .text-container h1 {
+    padding: 12px 10px;
+    letter-spacing: 2px;
+    background-color: #10104e;
+  }
+  .text-container h2 {
+    background-color: #4861b3;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    text-align: center;
+    margin-top: -5px;
+  }
+  .main-text{
+      text-align: center;
+      text-transform: capitalize;
+      text-shadow: 0 0 0 black;
+      letter-spacing: 5px;
+      margin-top: 10px;
+  }
+  
+  .concert-section img,
+  .local-park-section img,
+  .play-section img{
+      width: 150px;
+      height: 150px;
+      filter: saturate(1.2) contrast(1.5);
+      border-radius: 50%;
+      padding: 20px 0px;
+  }
+  .main-container{
+      display: grid;
+      grid-template: auto/ auto auto auto;
+      gap: 10px;
+  }
+  
+  .concert-section,
+  .local-park-section,
+  .play-section{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px;
+  }
+  .concert-section h3,
+  .local-park-section h3,
+  .play-section h3{
+      text-transform: capitalize;
+      font-size: 18px;
+      text-shadow: 0 0 0 black;
+      margin-top: 0;
+  }
+  
+  .concert-section p,
+  .local-park-section p,
+  .play-section p{
+      text-align: center;
+      text-transform: lowercase;
+      font-size: 15px;
+      padding: 10px 25px;
+      margin-top: 0;
+      letter-spacing: 1px;
+      line-height: 25px;
+      text-align: justify;
+      text-shadow: 0 0 0 black;
+  }
+  .card-section img{
+      width: 30vh;
+      height: 45vh;
+      border-radius: 15%;
+      filter: saturate(1.5) contrast(1.5) drop-shadow(10px 10px 5px brown);
+  }
+  .card-section{
+      background-color: aqua;
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      width: 400px;
+      margin: 0 auto;
+      padding: 0 25px;
+      border-radius: 10px;
+      gap: 35px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  .text-section h2{
+      text-align: center;
+      text-transform: capitalize;
+      letter-spacing: 1.5px;
+  }
+  .text-section p{
+      text-transform: capitalize;
+      letter-spacing: 1.2px;
+      padding: 0 10px;
+      text-shadow: 0 0 0 black;
+      text-align: justify;
+  }
+  span{
+      color:aqua;
+  }
+  
+  .footer{
+      background-color:darkslateblue;
+      padding: 8px;
+      position: sticky;
+      bottom: 0;
+  }
+  .footer small{
+      color: white;
+      padding-left: 10px;
+  }
+  
